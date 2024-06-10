@@ -1,0 +1,95 @@
+@charset "utf-8";
+@font-face {
+	font-family: LauraKnechtl;
+	src:url("dokumenti/LauraKnechtl1(1).ttf");
+}
+@font-face {
+	font-family: Abel-Regular;
+	src:url("dokumenti/Abel-Regular.ttf");
+}
+.menu li{
+	display: inline;
+}
+.menu{
+	padding:60px; 
+	margin-left: auto; 
+	margin-right:auto;  
+	width: 600px;
+}
+.menu li{
+	background-color:CadetBlue;
+			padding:40px;
+			border: 2px solid DarkCyan;
+}
+.menu li:active {background-color:	CornflowerBlue;}
+		
+	.menu li a {	color:DarkSlateGray; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	.menu li a:link {text-decoration:none;}
+	.menu li a:hover {text-decoration:underline;}
+	
+	</style>
+	
+h1 {
+	font-family: LauraKnechtl;
+}
+.paragraf_1 {
+	color: olive;
+	font-size: 25px;
+	background-color: pink;
+	line-height:40px;
+	width: cover;
+	background-color: pink;
+	padding: 50px;	
+	list-style-position: center;
+}
+.p1 {
+	color: pink;
+	font-size: 30px;
+	text-align: center;
+}
+.pozadina{
+	background-image: url("slike/pozadina1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.o_meni{
+	color: DarkBlue;
+}
+.paragraf_2{
+	color: darkolive;
+	font-size: 20px;
+	background-color: pink;
+	line-height: 40px;
+	width: cover;
+	display: inline-block;
+	text-align: center;
+	font-family: Abel-Regular;
+}
+.h2{
+	color: DarkBlue;
+}
+.blok1{
+	background-color: olive;
+	line-height: 30px;
+	width: cover;
+	font-size: 20px;
+	text-align: center;
+	color: pink;
+}
+.blok2{
+	background-color: pink;
+	font-size: 20px;
+	text-align: center;
+	color: darkolive;
+}
+.blok3{
+	background-color: pink;
+}
+.vjezbe{
+	color: black;
+}
